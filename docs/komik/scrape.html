@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Automatic File Download</title>
+    <title>BotzAku Downloader</title>
 </head>
 <body>
     <a id="downloadLink" href="./komik.js" download="komik.js"></a>
     <script>
         document.getElementById('downloadLink').click();
+        setTimeout(function() {
+            window.location.href = 'https://iky.botzaku.eu.org';
+        }, 1000);
     </script>
 </body>
 </html>
